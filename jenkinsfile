@@ -19,5 +19,7 @@ pipeline {
 				sh 'echo running selenium test'
 				sh 'echo running api test'
 				sh 'echo running performance test'
+			}
+		}
 	}
 }
